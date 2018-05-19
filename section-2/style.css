@@ -1,14 +1,24 @@
+body {
+    background-image: url(zebra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container {
-    background: linear-gradient(to left, #00ccff, #b3f0ff);
-    box-shadow: 3px 5px 9px black;
+/*    background: linear-gradient(to left, #00ccff, #b3f0ff);
+    box-shadow: 3px 5px 9px black;*/
 }
 
 h1 {
     color: #ffffff;
-    text-shadow: 2px 2px 5px black; <!-- disp disp smoot -->
+    text-shadow: 2px 2px 5px black; 
 }
 
 h2 {
     color: rgb(0, 204, 255);
     text-shadow: 1px 1px 3px blue;
+}
+
+.borderImg {
+    border: 10px dashed red;
 }
