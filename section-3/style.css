@@ -42,7 +42,11 @@ a {
 
 
 .borderImg {
+/*
     border: 10px dashed red;
+    box-shadow: 5px 5px 10px black;
+*/
+    border-radius: 10px;
 }
 
 ul li { /* all li inherit this attributes */
