@@ -9,7 +9,11 @@ body {
     box-shadow: 3px 5px 9px black;*/
 }
 
-div h1 {
+body h1 {
+    color: green;
+}
+
+html h1 {
     color: green;
 }
 
