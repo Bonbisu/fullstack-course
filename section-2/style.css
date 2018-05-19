@@ -9,14 +9,11 @@ body {
     box-shadow: 3px 5px 9px black;*/
 }
 
-h1 {
+h1, h2, h3, .class, #id { /* Grouped */
     color: #ffffff;
-    text-shadow: 2px 2px 5px black; 
-}
-
-h2 {
-    color: rgb(0, 204, 255);
-    text-shadow: 1px 1px 3px darkblue;
+    text-shadow: 2px 2px 5px black;
+    line-height: 1rem;
+    font-family: sans-serif;
 }
 
 .borderImg {
