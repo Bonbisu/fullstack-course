@@ -1,17 +1,11 @@
-body {
-    background-color: #cc99ff;
+.container {
+    background-color: darkslateblue;
 }
+
 h1 {
-    color: red;
-    text-align: center;
+    color: #ffffff;
 }
-.square {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    margin: auto;
-}
-#circle {
-    color: darkred;
-    font-size: 40px;
+
+h2 {
+    color: rgb(0, 204, 255);
 }
