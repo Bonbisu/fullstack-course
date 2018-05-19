@@ -16,9 +16,17 @@ h1 {
 
 h2 {
     color: rgb(0, 204, 255);
-    text-shadow: 1px 1px 3px blue;
+    text-shadow: 1px 1px 3px darkblue;
 }
 
 .borderImg {
     border: 10px dashed red;
+}
+
+ul li { /* all li inherit this attributes */
+    color: white;
+    font-size: 20px;
+}
+ul > li { /* only the next level li inherit this attributes */
+    color: yellow;
 }
