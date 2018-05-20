@@ -44,9 +44,8 @@ img {
     max-width: 100%;
     height: auto;
     padding: 5px;
-    opacity: 0.7;
-    display: block;
-    margin: auto;
+    opacity: 1;
+    margin-bottom: 60px;
 }
 
 .borderImg {
@@ -55,6 +54,15 @@ img {
     height: 200px;
     border: 2px solid #ddd;
     padding: 5px;
+}
+
+button {
+    color: white;
+    background: red;
+    border-radius: 12px;
+    border: none;
+    font-size: 25px;
+    padding: 10px 20px 40px 60px;
 }
 
 ul li { /* all li inherit this attributes */
