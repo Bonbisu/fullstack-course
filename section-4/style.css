@@ -10,6 +10,40 @@ body {
     margin: 0;
 }
 
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;    
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
 /*############ Nav bar ###############*/
 
 nav {
@@ -53,8 +87,38 @@ ul.topnav li.dropdownIcon {
     
 }
 
+/*######### Custom Styles ###########*/
 
-/*########### Mobile ##########*/
+#section-1-gradient {
+    background: #076dff;  /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#076dff, #65a5ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#076dff, #65a5ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#076dff, #65a5ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#076dff, #65a5ff); /* Standard syntax */
+
+}
+
+h1.large {
+    color: #fff;
+    font-size: 56px;
+    margin: 0;
+    line-height: 70px
+}
+
+#section-1-gradient h2 {
+    color: #fff;
+    margin: 0;
+}
+
+input[type="text"]{
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+}
+
+
+
+/*############## Mobile #############*/
 
 @media screen and (max-width: 680px) {
     ul.topnav li:not(:nth-child(1)) {
