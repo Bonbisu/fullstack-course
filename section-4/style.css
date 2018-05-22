@@ -98,6 +98,14 @@ ul.topnav li.dropdownIcon {
 
 }
 
+div.leftSide-col {
+    margin-left: 30%;
+}
+
+div.rightSide-col {
+    margin: 15%;
+}
+
 h1.large {
     color: #fff;
     font-size: 56px;
@@ -105,15 +113,15 @@ h1.large {
     line-height: 70px
 }
 
-#section-1-gradient h2 {
+form h2 {
     color: #fff;
-    margin: 0;
 }
 
 input[type="text"]{
     font-size: 20px;
     width: 400px;
     min-width: 100px;
+    border-radius: 7px;
 }
 
 
@@ -149,6 +157,28 @@ input[type="text"]{
         display: block;
         text-align: left;
         
+    }
+    
+    .col-6 {
+        width: 100%;
+        margin: 0;
+        
+    }
+    
+    div.leftSide-col,
+    div.rightSide-col {
+        margin: 15px;
+    }
+    
+    input[type="text"] {
+        width: 360px;
+    }
+    
+    .videoContainer iframe {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
     }
     
                 
