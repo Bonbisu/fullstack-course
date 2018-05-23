@@ -10,12 +10,16 @@ body {
     margin: 0;
 }
 
+label {
+    font-size: 35px;
+    font-weight: 600
+}
+
 .container {
     width: 100%;
     margin: auto;
     padding-top: 4%;
-    padding-bottom: 4%;
-    
+    padding-bottom: 4%;    
 }
 
 .row {
@@ -83,8 +87,7 @@ ul.topnav li a:hover {
 }
 
 ul.topnav li.dropdownIcon {
-    display: none;
-    
+    display: none;    
 }
 
 /*######### Custom Styles ###########*/
@@ -96,7 +99,6 @@ ul.topnav li.dropdownIcon {
     background: -moz-linear-gradient(#076dff, #65a5ff); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#076dff, #65a5ff); /* Standard syntax */
     box-shadow: 0px 1px 7px black;
-
 }
 
 div.box {
@@ -122,7 +124,7 @@ h1.large {
     color: #fff;
     font-size: 56px;
     margin: 0;
-    line-height: 70px
+    line-height: 70px;
 }
 
 h1.section2Header {
@@ -149,6 +151,7 @@ input[type="text"]{
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     } 
+    
     ul.topnav li.dropdownIcon {
         display: block;
         float: right;
@@ -162,7 +165,6 @@ input[type="text"]{
     
     ul.topnav.responsive {
         position: relative;
-
     }
     
     ul.topnav.responsive li {
@@ -172,8 +174,7 @@ input[type="text"]{
     }
     ul.topnav.responsive li a {
         display: block;
-        text-align: left;
-        
+        text-align: left;        
     }
     
     .col-6 {
@@ -181,7 +182,7 @@ input[type="text"]{
         margin: 0;
         
     }
-    
+        
     div.leftSide-col,
     div.rightSide-col {
         margin: 15px;
