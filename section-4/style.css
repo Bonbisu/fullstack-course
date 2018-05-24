@@ -34,6 +34,11 @@ p {
     line-height: 1.2;
 }
 
+article p {
+    font-size: 35px;
+    padding: 20px;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -185,6 +190,20 @@ div.icon {
     text-align: center;
 }
 
+div.slopeIcon img {
+    display: block;
+    margin: auto;
+    box-shadow: -2px/*H*/
+    -2px/*V*/
+    20px/*Blur*/
+    2px/*Spread*/
+    rgba(0/*Sh*/
+    , 0/*BgC*/
+    , 0/*Bx*/
+    , .15/*Op*/
+    ), 2px 2px 14px 2px rgba(0, 0, 0, 1);
+}
+
 div.leftSide-col {
     margin-left: 30%;
 }
@@ -221,7 +240,7 @@ input[type="text"] {
 
 /*############## Mobile #############*/
 
-@media screen and (max-width: 680px) {    
+@media screen and (max-width: 680px) {
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
@@ -251,16 +270,22 @@ input[type="text"] {
         text-align: left;
     }
 
+    .col-7,
     .col-6,
+    .col-5,
     .col-4 {
         width: 100%;
         margin: 0;
 
     }
-    
+
     div.box {
         padding: 5px;
         display: block;
+    }
+
+    div.slopeIcon img {
+        width: 100%;
     }
 
     div.leftSide-col,
@@ -282,6 +307,10 @@ input[type="text"] {
     h1.section2Header {
         font-size: 50px;
         text-align: center;
+    }
+
+    article p {
+        font-size: 25px;
     }
 
 
