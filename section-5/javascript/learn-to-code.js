@@ -19,5 +19,8 @@ var sum = 10 + 15;
 var sub = 15 - 10;
 var mul = 10 * 3;
 var div = 10 / 3;
+var mod = 10 % 3;
 
-console.log(div);
+var msg = "10 / 3 = 3 with a remainder of " + mod
+
+console.log(msg);
