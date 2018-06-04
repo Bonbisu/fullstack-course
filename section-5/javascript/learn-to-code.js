@@ -23,4 +23,6 @@ var mod = 10 % 3;
 
 var msg = "10 / 3 = 3 with a remainder of " + mod
 
-console.log(msg);
+var result = 10 * 5 + 3 - 4;
+
+console.log(result);
