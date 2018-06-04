@@ -15,14 +15,21 @@
 //
 //console.log(loginWelcomeMessage);
 
-var sum = 10 + 15;
-var sub = 15 - 10;
-var mul = 10 * 3;
-var div = 10 / 3;
-var mod = 10 % 3;
+//var sum = 10 + 15;
+//var sub = 15 - 10;
+//var mul = 10 * 3;
+//var div = 10 / 3;
+//var mod = 10 % 3;
+//
+//var msg = "10 / 3 = 3 with a remainder of " + mod
+//
+//var result = 10 * ((5 + 3) - 4);
+//
+//console.log(result);
 
-var msg = "10 / 3 = 3 with a remainder of " + mod
+var myAccountBalance = 300;
+var nikeSBShoes = 73.23;
 
-var result = 10 * ((5 + 3) - 4);
-
-console.log(result);
+if (nikeSBShoes <= myAccountBalance) {
+    console.log("We just bought some dope shoes!");
+}
