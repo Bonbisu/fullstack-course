@@ -36,11 +36,13 @@ var coupon = 500;
 // <= less than or equal
 // >= greater than or equal
 
-var age = 23;
-var joesAge = "23";
+var val1 = 23;
+var val2 = "23";
 
-if (age === joesAge) {
-    console.log("I'm the same age as Joe!")
+if (val1 === val2) {
+    console.log("These ar he same!");
+} else {
+    console.log("One of these in not like the other...")
 }
 
 //if (nikeSBShoes <= myAccountBalance) {
