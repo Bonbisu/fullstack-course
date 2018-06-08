@@ -39,7 +39,7 @@ var coupon = 500;
 var age = 23;
 var joesAge = "23";
 
-if (age == joesAge) {
+if (age === joesAge) {
     console.log("I'm the same age as Joe!")
 }
 
