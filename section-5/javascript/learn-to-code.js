@@ -27,23 +27,24 @@
 //
 //console.log(result);
 
-var myAccountBalance = 300;
-var nikeSBShoes = 799.23;
-var coupon = 500;
+//var myAccountBalance = 300;
+//var nikeSBShoes = 799.23;
+//var coupon = 500;
 
 // == equal to
 // ===
 // <= less than or equal
 // >= greater than or equal
+// !== not equal to
 
-var val1 = 23;
-var val2 = "23";
-
-if (val1 === val2) {
-    console.log("These ar he same!");
-} else {
-    console.log("One of these in not like the other...")
-}
+//var val1 = 23;
+//var val2 = "23";
+//
+//if (val1 === val2) {
+//    console.log("These ar he same!");
+//} else {
+//    console.log("One of these in not like the other...")
+//}
 
 //if (nikeSBShoes <= myAccountBalance) {
 //    myAccountBalance -= nikeSBShoes // same as myAccountBalance = myAccountBalance - nikeSBShoes   
@@ -56,3 +57,11 @@ if (val1 === val2) {
 //} else {
 //    console.log("You too broke for shoes bra!");
 //}
+
+if (1 === 1 && 2 === 2) {
+    console.log("These ar both true!");
+}
+
+if (true && true) {
+    console.log("These are the same!");
+}
