@@ -113,11 +113,15 @@
 //
 //console.log(naughtyList);
 
-var total = 10;
-for (var x = 0; x < total; x++) {
-    //Iterate until told not to
-    console.log(x);
+//var total = 10;
+//for (var x = 0; x < total; x++) {
+//    //Iterate until told not to
+//    console.log(x);
+//}
+
+var studentNames = ["John","Jacob","Jingle","Heimer","Smith"];
+
+for (var index = 0; index < studentNames.length; index++) {
+    console.log(studentNames[index]);
 }
-
-
 
