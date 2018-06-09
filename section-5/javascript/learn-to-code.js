@@ -58,28 +58,59 @@
 //    console.log("You too broke for shoes bra!");
 //}
 
-if (1 === 1 && 2 === 2 || "joe" === "joe") {
-    console.log("These are both true!");
+//if (1 === 1 && 2 === 2 || "joe" === "joe") {
+//    console.log("These are both true!");
+//}
+//
+//if (true && false) {
+//    console.log("These are the same!");
+//}
+//
+//if (1 === 3 || "joe" === "joe") {
+//    console.log("One of these are true!")   
+//}
+//
+//var cat1 = 5;
+//var cat2 = 10;
+//var cat3 = 1;
+//var cat3DisabledHandicap = true;
+//
+//if ((cat1 > cat2 && cat1 > cat3) && !cat3DisabledHandicap) {
+//    console.log("Cat 1 is the cutest!");
+//} else if ((cat2 > cat1 && cat2 > cat3) && !cat3DisabledHandicap) {
+//    console.log("Cat 2 is the cutest!")
+//} else if((cat3 > cat1 && cat3 > cat2) || cat3DisabledHandicap) {
+//    console.log("Cat 3 is the cutest!")
+//}
+
+var studentNames = ["Timmy","Janessa","Arun"]; // arrays can store Strings
+
+var balances = [50.45, 4000.12, -300.50]; // numbers
+
+var person  ["John", 12, "USA", true]; // or mixed types, not recommended
+
+var naughtyList = [];
+
+var badKid = studentNames[0];
+
+naughtyList.push(studentNames[0]); //copy from inside an array
+
+var index = naughtyList.indexOf("Timmy"); //return the index of Timmy
+
+
+
+
+console.log(studentNames);
+console.log(naughtyList);
+console.log(badKid + " is a bad kid!");
+console.log(index);
+
+if (index > -1) {
+    naughtyList.splice(index, 1); //remove 1 item from index (cutting from index, 1 item)
 }
 
-if (true && false) {
-    console.log("These are the same!");
-}
 
-if (1 === 3 || "joe" === "joe") {
-    console.log("One of these are true!")   
-}
 
-var cat1 = 5;
-var cat2 = 10;
-var cat3 = 1;
-var cat3DisabledHandicap = true;
+console.log(naughtyList);
 
-if ((cat1 > cat2 && cat1 > cat3) && !cat3DisabledHandicap) {
-    console.log("Cat 1 is the cutest!");
-} else if ((cat2 > cat1 && cat2 > cat3) && !cat3DisabledHandicap) {
-    console.log("Cat 2 is the cutest!")
-} else if((cat3 > cat1 && cat3 > cat2) || cat3DisabledHandicap) {
-    console.log("Cat 3 is the cutest!")
-}
 
