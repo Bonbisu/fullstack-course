@@ -83,34 +83,41 @@
 //    console.log("Cat 3 is the cutest!")
 //}
 
-var studentNames = ["Timmy","Janessa","Arun"]; // arrays can store Strings
+//var studentNames = ["Timmy","Janessa","Arun"]; // arrays can store Strings
+//
+//var balances = [50.45, 4000.12, -300.50]; // numbers
+//
+//var person  ["John", 12, "USA", true]; // or mixed types, not recommended
+//
+//var naughtyList = [];
+//
+//var badKid = studentNames[0];
+//
+//naughtyList.push(studentNames[0]); //copy from inside an array
+//
+//var index = naughtyList.indexOf("Timmy"); //return the index of Timmy
+//
+//
+//
+//
+//console.log(studentNames);
+//console.log(naughtyList);
+//console.log(badKid + " is a bad kid!");
+//console.log(index);
+//
+//if (index > -1) {
+//    naughtyList.splice(index, 1); //remove 1 item from index (cutting from index, 1 item)
+//}
+//
+//
+//
+//console.log(naughtyList);
 
-var balances = [50.45, 4000.12, -300.50]; // numbers
-
-var person  ["John", 12, "USA", true]; // or mixed types, not recommended
-
-var naughtyList = [];
-
-var badKid = studentNames[0];
-
-naughtyList.push(studentNames[0]); //copy from inside an array
-
-var index = naughtyList.indexOf("Timmy"); //return the index of Timmy
-
-
-
-
-console.log(studentNames);
-console.log(naughtyList);
-console.log(badKid + " is a bad kid!");
-console.log(index);
-
-if (index > -1) {
-    naughtyList.splice(index, 1); //remove 1 item from index (cutting from index, 1 item)
+var total = 10;
+for (var x = 0; x < total; x++) {
+    //Iterate until told not to
+    console.log(x);
 }
 
-
-
-console.log(naughtyList);
 
 
