@@ -127,21 +127,29 @@
 
 
 
-var lenght1 = 15;
-var width1 = 10;
-var area1 = lenght1 * width1;
-
-var lenght2 = 12;
-var width2 = 14;
-var area2 = lenght2 * width2;
-
-console.log(area1);
-console.log(area2);
-
-
+//var lenght1 = 15;
+//var width1 = 10;
+//var area1 = lenght1 * width1;
+//
+//var lenght2 = 12;
+//var width2 = 14;
+//var area2 = lenght2 * width2;
+//
+//console.log(area1);
+//console.log(area2);
 
 
+function area (lenght, width) {
+    return lenght * width    
+}
 
+var rectanglesAreas = []
+rectanglesAreas.push(area(10,15));
+rectanglesAreas.push(area(14,2));
+rectanglesAreas.push(area(4,5));
+
+
+console.log(rectanglesAreas);
 
 
 
