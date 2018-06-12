@@ -152,7 +152,40 @@ rectanglesAreas.push(area(4,5));
 console.log(rectanglesAreas);
 
 
+var bankBalance = 500;
 
+function makeTransaction(priceOfSale,) {
+    if (priceOfSale <= bankBalance) {
+        bankBalance -= priceOfSale;
+        console.log("Purchase Sucessful");
+    } else {
+        console.log("Insufficient Funds");
+    }
+    
+}
+
+console.log(bankBalance);
+makeTransaction(79.00);
+
+console.log(bankBalance);
+makeTransaction(2.32);
+
+console.log(bankBalance);
+makeTransaction(10.45);
+
+console.log(bankBalance);
+makeTransaction(450.00);
+
+var transaction = function(priceOfSale) {
+        if (priceOfSale <= bankBalance) {
+        bankBalance -= priceOfSale;
+        console.log("Purchase Sucessful");
+    } else {
+        console.log("Insufficient Funds");
+    }    
+}
+
+transaction(10);
 
 
 
