@@ -201,6 +201,10 @@ bankOperations.push(transaction);
 bankOperations.push(printCostumerName);
 bankOperations.push(applyForCreditCard);
 
+bankOperations[1]("Fernando", "Bomber");
+
+console.log(bankOperations[0](50.00));
+
 
 
 
