@@ -119,9 +119,48 @@
 //    console.log(x);
 //}
 
-var studentNames = ["John","Jacob","Jingle","Heimer","Smith"];
+//var studentNames = ["John","Jacob","Jingle","Heimer","Smith"];
+//
+//for (var index = 0; index < studentNames.length; index++) {
+//    console.log(studentNames[index]);
+//}
 
-for (var index = 0; index < studentNames.length; index++) {
-    console.log(studentNames[index]);
-}
+
+
+var lenght1 = 15;
+var width1 = 10;
+var area1 = lenght1 * width1;
+
+var lenght2 = 12;
+var width2 = 14;
+var area2 = lenght2 * width2;
+
+console.log(area1);
+console.log(area2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
