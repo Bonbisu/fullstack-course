@@ -187,10 +187,19 @@ var transaction = function(priceOfSale) {
 
 transaction(10);
 
+var printCostumerName = function(first,last) {
+    console.log("First Name: " + first + " Last Name: " + last);
+}
 
+var applyForCreditCard = function(creditScore, soul) {
+    //call some function to process application
+}
 
+var bankOperations =[]
 
-
+bankOperations.push(transaction);
+bankOperations.push(printCostumerName);
+bankOperations.push(applyForCreditCard);
 
 
 
