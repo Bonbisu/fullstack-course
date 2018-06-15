@@ -246,11 +246,13 @@ function Student(first, last, age) {
     }
 }
 
-var s1 = new Student("Jenny","Laga",5);
-console.log(s1);
-console.log(s1.greeting());
+students.push(new Student("Jenny","Laga",5));
+students.push(new Student("Timmy","Turner",8));
+students.push(new Student("Carl","Jr",4));
 
-
+//var s1 = new Student("Jenny","Laga",5);
+//console.log(s1);
+//console.log(s1.greeting());
 
 //students.push(student0);
 //students.push(student1);
@@ -258,7 +260,8 @@ console.log(s1.greeting());
 
 
 for (var index = 0; index < students.length; index++) {
-    console.log(students[index]);
+    var student = students[index];
+    console.log(student.greeting());
 }
 
 
