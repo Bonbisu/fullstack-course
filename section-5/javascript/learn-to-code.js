@@ -207,23 +207,53 @@
 
 
 
-var student = { //JS object creation
-    firstName: "John",
-    lastName: "Parker",
-    age: 7
+var student0 = { //JS object creation
+    firstName: "Jayne",
+    lastName: "Loo",
+    age: 8,
+    greeting: function() {
+        return "Hi, I'm " + this.firstName + " and I'm " + this.age + " years old."
+    }
 };
 
-console.log(student.firstName);
-console.log(student.lastName);
-console.log(student["firstName"]); // another way to access attrib.
-console.log(student["lastName"]);
+console.log(student0.greeting());
+
+//Creates a new empty object
+
+var student1 = new Object();
+student1.firstName = "John";
+student1.lastName = "Parker";
+student1.age = 7;
+
+// Another way to create an object
+
+var student2 = {};
+student2.firstName = "Zack";
+student2.lastName = "Bobo";
+student2.age = 5;
+
+
+var students = [];
+students.push(student0);
+students.push(student1);
+students.push(student2);
+
+
+for (var index = 0; index < students.length; index++) {
+    console.log(students[index]);
+}
+
+
+//console.log(student.firstName);
+//console.log(student.lastName);
+//console.log(student["firstName"]); // another way to access attrib.
+//console.log(student["lastName"]);
 
 
 // also can be written like 
 // var student = {firstName: "John",lastName: "Parker",age: 7};
 
 
-//var students = ["John", "Jacob", "Jingle", "Heimer", "Smith"];
 
 
 
