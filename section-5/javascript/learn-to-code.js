@@ -250,6 +250,15 @@ students.push(new Student("Jenny","Laga",5));
 students.push(new Student("Timmy","Turner",8));
 students.push(new Student("Carl","Jr",4));
 
+
+//for in loop
+var student = students[0];
+for (var key in student) { // for loop like python parameter
+    console.log(key); //print key names
+    console.log(student[key]); //print values
+    
+}
+
 //var s1 = new Student("Jenny","Laga",5);
 //console.log(s1);
 //console.log(s1.greeting());
@@ -259,10 +268,10 @@ students.push(new Student("Carl","Jr",4));
 //students.push(student2);
 
 
-for (var index = 0; index < students.length; index++) {
-    var student = students[index];
-    console.log(student.greeting());
-}
+//for (var index = 0; index < students.length; index++) {
+//    var student = students[index];
+//    console.log(student.greeting());
+//}
 
 
 //console.log(student.firstName);
