@@ -139,74 +139,91 @@
 //console.log(area2);
 
 
-function area (lenght, width) {
-    return lenght * width    
-}
+//function area (lenght, width) {
+//    return lenght * width    
+//}
+//
+//var rectanglesAreas = []
+//rectanglesAreas.push(area(10,15));
+//rectanglesAreas.push(area(14,2));
+//rectanglesAreas.push(area(4,5));
+//
+//
+//console.log(rectanglesAreas);
+//
+//
+//var bankBalance = 500;
+//
+//function makeTransaction(priceOfSale,) {
+//    if (priceOfSale <= bankBalance) {
+//        bankBalance -= priceOfSale;
+//        console.log("Purchase Sucessful");
+//    } else {
+//        console.log("Insufficient Funds");
+//    }
+//    
+//}
+//
+//console.log(bankBalance);
+//makeTransaction(79.00);
+//
+//console.log(bankBalance);
+//makeTransaction(2.32);
+//
+//console.log(bankBalance);
+//makeTransaction(10.45);
+//
+//console.log(bankBalance);
+//makeTransaction(450.00);
+//
+//var transaction = function(priceOfSale) {
+//        if (priceOfSale <= bankBalance) {
+//        bankBalance -= priceOfSale;
+//        console.log("Purchase Sucessful");
+//    } else {
+//        console.log("Insufficient Funds");
+//    }    
+//}
+//
+//transaction(10);
+//
+//var printCostumerName = function(first,last) {
+//    console.log("First Name: " + first + " Last Name: " + last);
+//}
+//
+//var applyForCreditCard = function(creditScore, soul) {
+//    //call some function to process application
+//}
+//
+//var bankOperations =[]
+//
+//bankOperations.push(transaction);
+//bankOperations.push(printCostumerName);
+//bankOperations.push(applyForCreditCard);
+//
+//bankOperations[1]("Fernando", "Bomber");
+//
+//console.log(bankOperations[0](50.00));
 
-var rectanglesAreas = []
-rectanglesAreas.push(area(10,15));
-rectanglesAreas.push(area(14,2));
-rectanglesAreas.push(area(4,5));
 
 
-console.log(rectanglesAreas);
+var student = { //JS object creation
+    firstName: "John",
+    lastName: "Parker",
+    age: 7
+};
+
+console.log(student.firstName);
+console.log(student.lastName);
+console.log(student["firstName"]); // another way to access attrib.
+console.log(student["lastName"]);
 
 
-var bankBalance = 500;
-
-function makeTransaction(priceOfSale,) {
-    if (priceOfSale <= bankBalance) {
-        bankBalance -= priceOfSale;
-        console.log("Purchase Sucessful");
-    } else {
-        console.log("Insufficient Funds");
-    }
-    
-}
-
-console.log(bankBalance);
-makeTransaction(79.00);
-
-console.log(bankBalance);
-makeTransaction(2.32);
-
-console.log(bankBalance);
-makeTransaction(10.45);
-
-console.log(bankBalance);
-makeTransaction(450.00);
-
-var transaction = function(priceOfSale) {
-        if (priceOfSale <= bankBalance) {
-        bankBalance -= priceOfSale;
-        console.log("Purchase Sucessful");
-    } else {
-        console.log("Insufficient Funds");
-    }    
-}
-
-transaction(10);
-
-var printCostumerName = function(first,last) {
-    console.log("First Name: " + first + " Last Name: " + last);
-}
-
-var applyForCreditCard = function(creditScore, soul) {
-    //call some function to process application
-}
-
-var bankOperations =[]
-
-bankOperations.push(transaction);
-bankOperations.push(printCostumerName);
-bankOperations.push(applyForCreditCard);
-
-bankOperations[1]("Fernando", "Bomber");
-
-console.log(bankOperations[0](50.00));
+// also can be written like 
+// var student = {firstName: "John",lastName: "Parker",age: 7};
 
 
-
+//var students = ["John", "Jacob", "Jingle", "Heimer", "Smith"];
 
 
 
