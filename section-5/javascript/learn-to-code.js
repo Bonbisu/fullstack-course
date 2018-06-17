@@ -283,10 +283,10 @@
 // also can be written like 
 // var student = {firstName: "John",lastName: "Parker",age: 7};
 
-var car = "Honda"
+var car = "Honda Civic w/ Ugly Spoiler"
 
 var garage = {
-    car: "Goleta",
+    car: "Aston Martin",
     getCar: function() {
         return this.car;
     }
@@ -294,11 +294,20 @@ var garage = {
 
 console.log(garage.getCar());
 
+//store the function w/o bind
 var storeFunction = garage.getCar;
-
-
 console.log(storeFunction());
 
+//store w bind
+
+var storeFunctionBind1 = storeFunction.bind(garage);
+
+//or
+
+ var storeFunctionBind2 = garage.getCar.bind(garage); //better way
+
+console.log(storeFunctionBind1());
+console.log(storeFunctionBind2());
 
 
 
