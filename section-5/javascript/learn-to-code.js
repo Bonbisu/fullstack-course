@@ -233,31 +233,31 @@
 //student2.age = 5;
 
 
-var students = [];
-
-//Object with a constructor
-
-function Student(first, last, age) {
-    this.firstName = first;
-    this.lastName = last;
-    this.age = age;
-    this.greeting = function() {
-        return "Hi, I'm " + this.firstName + " and I'm " + this.age + " years old."
-    }
-}
-
-students.push(new Student("Jenny","Laga",5));
-students.push(new Student("Timmy","Turner",8));
-students.push(new Student("Carl","Jr",4));
-
-
-//for in loop
-var student = students[0];
-for (var key in student) { // for loop like python parameter
-    console.log(key); //print key names
-    console.log(student[key]); //print values
-    
-}
+//var students = [];
+//
+////Object with a constructor
+//
+//function Student(first, last, age) {
+//    this.firstName = first;
+//    this.lastName = last;
+//    this.age = age;
+//    this.greeting = function() {
+//        return "Hi, I'm " + this.firstName + " and I'm " + this.age + " years old."
+//    }
+//}
+//
+//students.push(new Student("Jenny","Laga",5));
+//students.push(new Student("Timmy","Turner",8));
+//students.push(new Student("Carl","Jr",4));
+//
+//
+////for in loop
+//var student = students[0];
+//for (var key in student) { // for loop like python parameter
+//    console.log(key); //print key names
+//    console.log(student[key]); //print values
+//    
+//}
 
 //var s1 = new Student("Jenny","Laga",5);
 //console.log(s1);
@@ -282,6 +282,22 @@ for (var key in student) { // for loop like python parameter
 
 // also can be written like 
 // var student = {firstName: "John",lastName: "Parker",age: 7};
+
+var car = "Honda"
+
+var garage = {
+    car: "Goleta",
+    getCar: function() {
+        return this.car;
+    }
+};
+
+console.log(garage.getCar());
+
+var storeFunction = garage.getCar;
+
+
+console.log(storeFunction());
 
 
 
