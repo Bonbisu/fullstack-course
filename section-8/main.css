@@ -25,3 +25,18 @@ form.signin-form {
     max-width: 350px;
     margin: auto;
 }
+
+button.signin-btn {
+    color: #fff;
+    background-color: #d64829;
+    width: 100%;
+    margin-bottom: 1.2rem;    
+}
+
+a.create-new-account {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+
